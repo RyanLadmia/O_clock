@@ -1,3 +1,6 @@
+<?php
+$title = "Horloge";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +9,9 @@
     <title>Horloge</title>
 </head>
 <body>
-    <h1>Horloge</h1>
+    <?php include '../includes/header.php' ?>
+    <main>
+        <h1>Horloge</h1>
+    </main>
 </body>
 </html>
