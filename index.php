@@ -7,13 +7,17 @@
 </head>
 <body>
     <header>
-
+        <nav>
+            <section>
+                
+            </section>
+        </nav>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
