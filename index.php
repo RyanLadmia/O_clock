@@ -6,22 +6,10 @@
     <title>O'Clock</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <section>
-                <ul>
-                    <li><a href="horloge.php">Horloge</a></li>
-                    <li><a href="chronometre.php">Chronomètre</a></li>
-                    <li><a href="minuteur.php">Minuteur</a></li>
-                </ul>
-            </section>
-        </nav>
-    </header>
     <main>
-
+        <section>
+            
+        </section>
     </main>
-    <footer>
-
-    </footer>
 </body>
 </html>
