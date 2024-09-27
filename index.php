@@ -11,7 +11,7 @@
             <section>
                 <ul>
                     <li><a href="horloge.php">Horloge</a></li>
-                    <li><a href="chronomètre.php">Chronomètre</a></li>
+                    <li><a href="chronometre.php">Chronomètre</a></li>
                     <li><a href="minuteur.php">Minuteur</a></li>
                 </ul>
             </section>
