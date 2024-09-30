@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.Navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Navbar li {
+    margin: 0 150px;
+}
+
+.Navbar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #444;
+    border-radius: 5px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.Navbar a:hover {
+    background-color: #555;
+}
+
+
+h1{
+    color: red;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timer {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+#timeInput {
+    width: 80px;
+    text-align: center;
+    font-size: 1em;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+button#startStopBtn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+}

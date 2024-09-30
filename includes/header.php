@@ -11,7 +11,7 @@ if ($File_Name == "index") {
 }
 ?>
 <header>
-    <nav>
+    <nav class="navbar">
         <section>
             <ul>
                 <li><a href="<?php echo $path; ?>index.php">Accueil</a></li>
