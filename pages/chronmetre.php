@@ -12,6 +12,9 @@ $title = "Chronomètre";
     <?php include '../includes/header.php' ?>
     <main>
         <h1>Chronomètre</h1>
+        <section>
+            
+        </section>
     </main>
 </body>
 </html>

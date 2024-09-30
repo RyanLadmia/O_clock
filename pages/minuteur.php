@@ -12,6 +12,9 @@ $title = "Minuteur";
     <?php include '../includes/header.php' ?>
     <main>
         <h1>Minuteur</h1>
+        <section>
+            
+        </section>
     </main>
 </body>
 </html>
