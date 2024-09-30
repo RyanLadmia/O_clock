@@ -7,7 +7,7 @@ $title = "Chronomètre";
 <head>
     <link rel="stylesheet" href="../assets/css/chronometre.css">
 </head>
-<body>
+<body class="fond">
     <?php include '../includes/header.php' ?>
     <main>
         <h1>Chronomètre</h1>

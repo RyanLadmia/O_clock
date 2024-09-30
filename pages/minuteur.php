@@ -7,7 +7,7 @@ $title = "Minuteur";
 <head>
     <link rel="stylesheet" href="../assets/css/minuteur.css">
 </head>
-<body>
+<body class="fond">
     <?php include '../includes/header.php' ?>
     <main>
         <h1>Minuteur</h1>

@@ -9,7 +9,7 @@ $title = "Horloge";
     <link rel="stylesheet" href="../assets/css/horloge.css">
 </head>
 
-<body>
+<body class="fond">
     <?php include '../includes/header.php' ?>
     <main>
         <h1>Horloge</h1>

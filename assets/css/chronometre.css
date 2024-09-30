@@ -13,7 +13,7 @@ main{
 
 header {
     background-color: #333;
-    padding: 10px 0;
+    padding: 10px 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -30,22 +30,28 @@ header {
 }
 
 .Navbar li {
-    margin: 0 150px;
+    margin: 0 80px;
 }
 
 .Navbar a {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 15px;
     text-decoration: none;
     color: white;
     background-color: #444;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 15px;
     justify-content: space-between;
 }
 
 .Navbar a:hover {
     background-color: #555;
+}
+
+.fond{
+    background-image: url(../medias/spirale.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 h1{

@@ -18,6 +18,7 @@ if ($File_Name == "index") {
                 <li><a href="<?php echo $path2; ?>horloge.php">Horloge</a></li>
                 <li><a href="<?php echo $path2; ?>chronmetre.php">Chronomètre</a></li>
                 <li><a href="<?php echo $path2; ?>minuteur.php">Minuteur</a></li>
+                <li><a href="<?php echo $path2; ?>reveil.php">Réveil</a></li>
             </ul>
         </section>
     </nav>

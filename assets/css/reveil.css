@@ -57,39 +57,5 @@ header {
 
 
 h1{
-    color: red;
-}
-
-.container {
-    text-align: center;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.timer {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.controls {
-    margin-bottom: 20px;
-}
-
-#timeInput {
-    width: 80px;
-    text-align: center;
-    font-size: 1em;
-}
-
-button {
-    font-size: 1.5em;
-    padding: 5px 10px;
-    margin: 0 10px;
-}
-
-button#startStopBtn {
-    font-size: 1.2em;
-    padding: 10px 20px;
+    color: purple;
 }

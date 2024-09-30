@@ -7,7 +7,7 @@ $title = "Accueil";
 <head>
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
-<body class="accueil">
+<body class="fond">
     <?php include './includes/header.php' ?>
     <main>
         <h1>O'Clock</h1>
