@@ -10,7 +10,6 @@ $title = "Minuteur";
 <body>
     <?php include '../includes/header.php' ?>
     <main>
-    <br><br><br><br><br><br>
         <h1>Minuteur</h1>
             <div class="container">
                 <!-- Affichage du minuteur -->

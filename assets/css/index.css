@@ -1,4 +1,4 @@
-
+/* GENERAL SETTING */
 body {
     margin: 0;
     padding: 0;
@@ -47,6 +47,10 @@ header {
 
 .Navbar a:hover {
     background-color: #555;
+}
+
+.accueil{
+    background-image: url(./assets/medias/spirale.jpg);
 }
 
 h1{

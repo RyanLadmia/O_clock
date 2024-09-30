@@ -10,7 +10,6 @@ $title = "Chronomètre";
 <body>
     <?php include '../includes/header.php' ?>
     <main>
-    <br><br><br><br><br><br>
         <h1>Chronomètre</h1>
         <!-- Affichage du chronomètre -->
         <div class="timer">
