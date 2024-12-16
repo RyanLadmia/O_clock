@@ -31,6 +31,9 @@ $title = "Minuteur";
             </div>
     </main>
 
+    <!-- Sonnerie -->
+    <audio id="timerSound" src="../assets/medias/snail.mp3" preload="auto"></audio>
+
     <script>
         let timeInSeconds = 0;
         let timerInterval = null;
@@ -42,6 +45,7 @@ $title = "Minuteur";
         const startStopBtn = document.getElementById("startStopBtn");
         const increaseTimeBtn = document.getElementById("increaseTime");
         const decreaseTimeBtn = document.getElementById("decreaseTime");
+        const timerSound = document.getElementById("timerSound");  // Élément audio
 
         // Fonction pour afficher le temps en format mm:ss
         function displayTime(seconds) {
@@ -85,6 +89,8 @@ $title = "Minuteur";
                     displayTime(timeInSeconds);
                 } else {
                     clearInterval(timerInterval);
+                    // Jouer la sonnerie quand le temps est écoulé
+                    timerSound.play();
                     alert("Le temps est écoulé !");
                     isRunning = false;
                     startStopBtn.textContent = "Démarrer";
